@@ -1,0 +1,1 @@
+This bug occurs when using the FlatList component in React Native with a large dataset. The performance degrades significantly, and the app becomes unresponsive. This is because FlatList renders all items at once, which is inefficient for large datasets. The solution is to use the `windowSize` prop to render only a subset of items at a time.
