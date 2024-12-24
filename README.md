@@ -1,0 +1,1 @@
+This repository contains a React Native project demonstrating a performance issue with FlatList when rendering a large dataset. The bug is caused by FlatList rendering all items at once, which is inefficient. The solution involves using the `windowSize` prop to render only a subset of items at a time. This improves performance significantly, especially for large datasets.
